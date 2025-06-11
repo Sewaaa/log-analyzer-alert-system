@@ -1,0 +1,10 @@
+[
+  {
+    "rule_id": "ssh_bruteforce",
+    "description": "More than 5 failed logins from the same IP in 30 seconds",
+    "offender": "192.168.1.10",
+    "count": 5,
+    "time_window_start": "12:45:32",
+    "time_window_end": "12:45:40"
+  }
+]

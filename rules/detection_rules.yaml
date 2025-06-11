@@ -1,0 +1,7 @@
+rules:
+  - id: ssh_bruteforce
+    description: "More than 5 failed logins from the same IP in 30 seconds"
+    pattern: "failed_login"
+    field: "ip"
+    threshold: 5
+    interval: 30 

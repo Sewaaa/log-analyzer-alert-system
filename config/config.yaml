@@ -1,0 +1,8 @@
+email:
+  enabled: true
+  smtp_server: "smtp.gmail.com"       # SMTP server (e.g. Gmail)
+  port: 465                           # SSL port for Gmail
+  username: "your_email@example.com" # Sender's email address
+  password: "your_app_password"      # App-specific password (do not use real one here)
+  from: "your_email@example.com"     # From address
+  to: "recipient@example.com"        # To address (can be same as 'from')
